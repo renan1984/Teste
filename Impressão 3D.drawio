@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="Y0nrkEKy2ocu3OjmUBCb">
+    <mxGraphModel dx="1958" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-4" edge="1" parent="1" source="pFlWiCvxiUJQy54-tHcG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pFlWiCvxiUJQy54-tHcG-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Impressão 3D&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="300" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-3" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;font&gt;Suporte Necessário?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="310" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;font&gt;&lt;span data-offset-key=&quot;cjbqe-0-0&quot; style=&quot;font-family: Aptos, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; white-space: pre-wrap;&quot;&gt;É&lt;/span&gt;&lt;span data-offset-key=&quot;cjbqe-0-1&quot; style=&quot;font-family: Aptos, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; white-space: pre-wrap;&quot;&gt; possível cortar a peça para remover a necessidade de suporte?&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="180" x="110" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-7" edge="1" parent="1" source="pFlWiCvxiUJQy54-tHcG-3" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="pFlWiCvxiUJQy54-tHcG-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="370" as="sourcePoint" />
+            <mxPoint x="520" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-8" connectable="0" parent="pFlWiCvxiUJQy54-tHcG-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Sim&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0471" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-9" edge="1" parent="1" source="pFlWiCvxiUJQy54-tHcG-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="360" as="sourcePoint" />
+            <mxPoint x="380" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-10" connectable="0" parent="pFlWiCvxiUJQy54-tHcG-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Não&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.05" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Faça o corte" vertex="1">
+          <mxGeometry height="30" width="100" x="60" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-16" edge="1" parent="1" source="pFlWiCvxiUJQy54-tHcG-6" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="pFlWiCvxiUJQy54-tHcG-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="50" y="300" as="sourcePoint" />
+            <mxPoint x="100" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-17" connectable="0" parent="pFlWiCvxiUJQy54-tHcG-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Não&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0873" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-18" edge="1" parent="1" source="pFlWiCvxiUJQy54-tHcG-6" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="330" as="sourcePoint" />
+            <mxPoint x="210" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-19" edge="1" parent="1" source="pFlWiCvxiUJQy54-tHcG-6" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="250" y="300" as="sourcePoint" />
+            <mxPoint x="290" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-20" connectable="0" parent="pFlWiCvxiUJQy54-tHcG-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Sim&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0017" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;div class=&quot;&quot; data-block=&quot;true&quot; data-editor=&quot;1c6jr&quot; data-offset-key=&quot;4s12s-0-0&quot; style=&quot;color: rgb(0, 0, 0); font-family: Aptos, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;div data-offset-key=&quot;4s12s-0-0&quot; class=&quot;public-DraftStyleDefault-block public-DraftStyleDefault-ltr&quot; style=&quot;position: relative; white-space: pre-wrap; direction: ltr; text-align: center;&quot;&gt;&lt;span data-offset-key=&quot;4s12s-0-0&quot;&gt;&lt;span data-text=&quot;true&quot; style=&quot;background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);&quot;&gt;&lt;font&gt;Na aba &quot;Suporte&quot;:&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot; data-block=&quot;true&quot; data-editor=&quot;1c6jr&quot; data-offset-key=&quot;2a1hu-0-0&quot; style=&quot;color: rgb(0, 0, 0); font-family: Aptos, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;div data-offset-key=&quot;2a1hu-0-0&quot; class=&quot;public-DraftStyleDefault-block public-DraftStyleDefault-ltr&quot; style=&quot;position: relative; white-space: pre-wrap; direction: ltr; text-align: center;&quot;&gt;&lt;span data-offset-key=&quot;2a1hu-0-0&quot;&gt;&lt;span data-text=&quot;true&quot; style=&quot;background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);&quot;&gt;&lt;font&gt;Habilite &quot;Ativar Suporte&quot;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="40" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-24" edge="1" parent="1" source="pFlWiCvxiUJQy54-tHcG-15" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pFlWiCvxiUJQy54-tHcG-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="460" as="sourcePoint" />
+            <mxPoint x="210" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pFlWiCvxiUJQy54-tHcG-32" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=right;labelPosition=left;pointerEvents=1;verticalLabelPosition=middle;verticalAlign=middle;" value="Verifique se há suportes que cruzam por entre a peça,&lt;div&gt;pois dependendo do tamanho da peça pode ser difícil remove-los.&lt;br&gt;Exemplo:&lt;br&gt;Suporte entre as pernas de um personagem.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="50" x="50" y="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
